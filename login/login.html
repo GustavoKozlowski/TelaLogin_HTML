@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <main class="login">
+        <div class="login__container">
+            <h1 class="login__title">Login</h1>
+              <form class="login__form">
+                  <input id="e-mail" class="login__input" name= "e-mail" type="email" required placeholder="e-mail">
+                  <span class="login__input-border"></span>
+                 <input id="senha" class="login__input" name="senha" type="password" required pattern="^[0-9]{4}$"  maxlength="4"  placeholder="senha">
+                 <span class="login__input-border"></span>
+                 <button id="login-in" class="login__submit"><a id="link" href="#" rel="next">Login</a></button>
+                 <a class="login__reset"href="">Esqueci a senha</a>
+              </form>
+        </div>
+
+
+    </main>
+    <script src="validacao.js"></script>
+</body>
+</html>
